@@ -13,10 +13,10 @@ import pageobjectmodel.WebShopLogout;
 
 public class Cart {
 	
-	RemoveFromCart removeFromCart;
-	UpdateCart updateCart;
-	EmptyMessage emptyMessage;
-	WebDriver driver;
+	public RemoveFromCart removeFromCart;
+	public UpdateCart updateCart;
+	public EmptyMessage emptyMessage;
+	public WebDriver driver;
 	
 	public Cart(WebDriver driver) {
 		this.driver = driver;

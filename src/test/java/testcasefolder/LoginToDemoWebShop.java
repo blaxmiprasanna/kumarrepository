@@ -1,8 +1,11 @@
-package com.CTS.sampleproject;
+package testcasefolder;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.CTS.sampleproject.BaseClass;
+import com.CTS.sampleproject.ValidateItemInCart;
 
 public class LoginToDemoWebShop extends BaseClass{
 	

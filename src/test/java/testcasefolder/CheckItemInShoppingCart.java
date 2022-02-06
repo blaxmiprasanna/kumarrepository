@@ -1,10 +1,14 @@
-package com.CTS.sampleproject;
+package testcasefolder;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import com.CTS.sampleproject.BaseClass;
+import com.CTS.sampleproject.Cart;
+import com.CTS.sampleproject.ValidateItemInCart;
 
 public class CheckItemInShoppingCart extends BaseClass{
 	

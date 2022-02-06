@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20603" started-at="2021-12-26T23:43:04Z" finished-at="2021-12-26T23:43:24Z">
+  <suite name="Suite" duration-ms="22824" started-at="2021-12-27T13:28:51Z" finished-at="2021-12-27T13:29:14Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20603" started-at="2021-12-26T23:43:04Z" finished-at="2021-12-26T23:43:24Z">
+    <test name="Test" duration-ms="22824" started-at="2021-12-27T13:28:51Z" finished-at="2021-12-27T13:29:14Z">
       <class name="com.CTS.sampleproject.CheckItemInShoppingCart">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.CTS.sampleproject.CheckItemInShoppingCart@1b0375b3]" name="startUp" is-config="true" duration-ms="5170" started-at="2021-12-26T18:43:04Z" finished-at="2021-12-26T18:43:09Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.CTS.sampleproject.CheckItemInShoppingCart@2f7c7260]" name="startUp" is-config="true" duration-ms="7609" started-at="2021-12-27T08:28:51Z" finished-at="2021-12-27T08:28:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="validateItemsInCart()[pri:0, instance:com.CTS.sampleproject.CheckItemInShoppingCart@1b0375b3]" name="validateItemsInCart" duration-ms="605" started-at="2021-12-26T18:43:09Z" finished-at="2021-12-26T18:43:09Z">
+        <test-method status="PASS" signature="validateItemsInCart()[pri:0, instance:com.CTS.sampleproject.CheckItemInShoppingCart@2f7c7260]" name="validateItemsInCart" duration-ms="609" started-at="2021-12-27T08:28:58Z" finished-at="2021-12-27T08:28:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateItemsInCart -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CTS.sampleproject.CheckItemInShoppingCart@1b0375b3]" name="tearDown" is-config="true" duration-ms="9655" started-at="2021-12-26T18:43:09Z" finished-at="2021-12-26T18:43:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CTS.sampleproject.CheckItemInShoppingCart@2f7c7260]" name="tearDown" is-config="true" duration-ms="9667" started-at="2021-12-27T08:28:59Z" finished-at="2021-12-27T08:29:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.CTS.sampleproject.CheckItemInShoppingCart -->
       <class name="com.CTS.sampleproject.LoginToDemoWebShop">
-        <test-method status="PASS" signature="loginToDemoWebShop()[pri:0, instance:com.CTS.sampleproject.LoginToDemoWebShop@2f7c7260]" name="loginToDemoWebShop" duration-ms="5162" started-at="2021-12-26T18:43:19Z" finished-at="2021-12-26T18:43:24Z">
+        <test-method status="PASS" signature="loginToDemoWebShop()[pri:0, instance:com.CTS.sampleproject.LoginToDemoWebShop@2d209079]" name="loginToDemoWebShop" duration-ms="4924" started-at="2021-12-27T08:29:09Z" finished-at="2021-12-27T08:29:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToDemoWebShop -->

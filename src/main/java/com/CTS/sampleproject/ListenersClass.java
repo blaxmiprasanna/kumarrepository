@@ -1,17 +1,19 @@
 package com.CTS.sampleproject;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class ListenersClass extends BaseClass implements ITestListener {
+public class ListenersClass implements ITestListener {
 
+	WebDriver driver;
 	public ExtentReports report;
 	public ExtentTest logger;
+	
 
 	public void onFinish(ITestContext results) {
 		
@@ -33,6 +35,14 @@ public class ListenersClass extends BaseClass implements ITestListener {
 	}
 
 	public void onTestFailure(ITestResult results) {
+		BaseClass baseClass = new BaseClass();
+		
+		try {
+			driver = baseClass.setUp();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 		ScreenShot.takeSCreenShot(results.getName(), driver);
 		
