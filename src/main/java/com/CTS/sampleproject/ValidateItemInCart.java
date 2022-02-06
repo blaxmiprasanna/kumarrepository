@@ -15,10 +15,10 @@ import pageobjectmodel.WebShopLogout;
 public class ValidateItemInCart  {
 	
 	WebDriver driver;
-	ShoppingCart shoppingCart;
-	Books books;
-	BooksAddToCart booksAddToCart;
-	WebShopLogout webShopLogout;
+	public ShoppingCart shoppingCart;
+	public Books books;
+	public BooksAddToCart booksAddToCart;
+	public WebShopLogout webShopLogout;
 
 	public ValidateItemInCart(WebDriver driver) {
 		this.driver = driver;
