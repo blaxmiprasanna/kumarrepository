@@ -1,5 +1,6 @@
 package testcasefolder;
 
+<<<<<<< HEAD
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -25,11 +26,17 @@ public class CheckOutTheITemFromShoppingCart extends BaseClass {
 			e.printStackTrace();
 		}
 	}
+=======
+import org.testng.annotations.Test;
+
+public class CheckOutTheITemFromShoppingCart {
+>>>>>>> master
 	
 	@Test
 	public void checkOutTheITemFromShoppingCart(){
 		
 		
+<<<<<<< HEAD
 		
 		
 	}
@@ -41,4 +48,8 @@ public class CheckOutTheITemFromShoppingCart extends BaseClass {
 	}
 
 	
+=======
+	}
+
+>>>>>>> master
 }
